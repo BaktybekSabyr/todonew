@@ -10,3 +10,7 @@ def test(request):
 
 def second(request):
     return HttpResponse("test2  page")
+
+def homework(request):
+    return render(request, "homework.html")
+
