@@ -8,5 +8,5 @@ def homepage(request):
 def test(request):
     return render(request, "test.html")
 
-def homework(request):
-    return render(request, "homework.html")
+def second(request):
+    return HttpResponse("test2  page")
