@@ -1,5 +1,5 @@
 from django.shortcuts import render, HttpResponse
-from models import ToDo
+from .models import ToDo
 
 
 def homepage(request):
